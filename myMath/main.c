@@ -2,7 +2,7 @@
 //  main.c
 //  
 //
-//  Created by user on 09/11/2020.
+//  Created by kobi on 09/11/2020.
 //
 #include "myMath.h"
 #include <stdio.h>
