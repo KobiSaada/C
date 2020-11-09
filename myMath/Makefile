@@ -1,7 +1,5 @@
 CC = gcc
 AR = ar -rcs
-OBJECTS_MAIN = main.o
-OBJECTS_LIB = power.o basicMath.o
 FLAGS = -Wall
 
 all: mymaths mymathd mains maind
@@ -18,7 +16,7 @@ mains: main.o libmyMath.a
 	$(CC) $(FLAGS) -o mains main.o libmyMath.a
 	
 maind: main.o libmyMath.so
-	$(CC) $(FLAGS) -o maind $(OBJECTS_MAIN) ./libmyMath.so
+	$(CC) $(FLAGS) -o maind main.o ./libmyMath.so
 	
 		
 basicMath.o: basicMath.c myMath.h
