@@ -1,16 +1,16 @@
 CC = gcc
 AR = ar -rcs
-FLAGS = -Wall
+FLAGS = -Wall-g
 
 all: mymaths mymathd mains maind
 mymathd:libmyMath.a
 mymaths:libmyMath.so
 
 libmyMath.so:basicMath.o power.o
-$(CC)-shared-o libmyMath.so basicMath.o power.o
+	$(CC)-shared-o libmyMath.so basicMath.o power.o
 
 libmyMath.a:basicMath.o power.o
-$(AR)-rcs libmyMath.a basicMath.o power.o
+	$(AR)-rcs libmyMath.a basicMath.o power.o
 
 mains: main.o libmyMath.a
 	$(CC) $(FLAGS) -o mains main.o libmyMath.a
