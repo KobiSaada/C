@@ -7,7 +7,7 @@
 #include "myMath.h"
 #include <stdio.h>
 int main(){
-    double in = 0;
+    double in ;
     float func =0 ,func1 =0 , func2=0;
     
     printf("please enter a real num");
