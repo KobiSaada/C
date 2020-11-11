@@ -14,7 +14,7 @@ double pow(double x , double y){
     
     if (y<0) {
         times=-1*y;
-        <#statements#>
+       
     }
     else{
         times=y;
@@ -24,7 +24,7 @@ double pow(double x , double y){
     }
     if (y>=0) {
         return res;
-        <#statements#>
+      
     }
     else{
         double res2 =0;
