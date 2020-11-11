@@ -1,6 +1,6 @@
 CC = gcc
 AR = ar -rcs
-FLAGS = -Wall-g
+FLAGS = -Wall
 
 all: mymaths mymathd mains maind
 mymathd:libmyMath.a
