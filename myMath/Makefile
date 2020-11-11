@@ -1,6 +1,6 @@
 CC = gcc
 AR = ar -rcs
-FLAGS = -Wall
+FLAGS = -Wall-g
 
 all: mymaths mymathd mains maind
 mymathd:libmyMath.a
@@ -30,8 +30,7 @@ power.o: power.c myMath.h
 main.o: main.c myMath.h
 	$(CC) $(FLAGS) -c main.c
 	
-
-
 clean:
 	rm -f *.o *.a *.so mains maind
-.PHONY: clean all mymaths mymathd
+	
+.PHONY: clean all 
