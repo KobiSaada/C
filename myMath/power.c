@@ -8,7 +8,7 @@
 #include "myMath.h"
 #define E 2.71828182
 
-double pow(double x , double y){
+double pow(double x , int y){
     int i =0,times=0;
     double res =1 ;
     
