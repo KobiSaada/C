@@ -12,10 +12,10 @@ libmyMath.so:basicMath.o power.o
 libmyMath.a:basicMath.o power.o
 	$(AR)	-rcs libmyMath.a basicMath.o power.o
 
-mains: main.o libmyMath.a
+mains:main.o libmyMath.a
 	$(CC) $(FLAGS) -o mains main.o libmyMath.a
 	
-maind: main.o libmyMath.so
+maind:main.o libmyMath.so
 	$(CC) $(FLAGS) -o maind main.o ./libmyMath.so
 	
 		
