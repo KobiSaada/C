@@ -15,7 +15,7 @@ int main(){
     func=sub((float)add(Exp((int)in),(float)pow(in,3)),(float)2);
     func1=add((float)mul((float)3,(float)in),(float)mul((float)2,(float)pow(in,2)));
     func2=sub((float)(div((float)mul((float)4,(float)pow(in,3)),(float)5)),(float)(mul((float)2,(float)in)));
-    printf("the ans of value of f(x) = 'e^x+x^3-2' in the point:%.4lf is : %.4l\n",in,func);
-    printf("the ans of value of f(x) = '3x+2x^2' in the point:%.4lf is : %.4l\n",in,func1);
-    printf("the ans of value of f(x) = '(4x^3)/5-2x' in the point:%.4lf is : %.4l\n",in,func2);
+    printf("the ans of value of f(x) = 'e^x+x^3-2' in the point:%.4lf is : %.4lf\n",in,func);
+    printf("the ans of value of f(x) = '3x+2x^2' in the point:%.4lf is : %.4lf\n",in,func1);
+    printf("the ans of value of f(x) = '(4x^3)/5-2x' in the point:%.4lf is : %.4lf\n",in,func2);
 }
