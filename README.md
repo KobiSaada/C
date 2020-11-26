@@ -19,7 +19,8 @@ Features
  Toggle sounds.
  Scaling fonts and UI for all supported iOS13+ devices.
 SimpleMath
-
+# Example for some operation
+![Uploading math.gif…]()
 Todo
  Add light / dark mode support.
  Customize colors / themes (it is very purple now, my target audience demanded it!).
