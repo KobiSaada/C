@@ -11,6 +11,7 @@ In this project I wrote a library in the C programming language that implements 
  * multiplication
  * division 
  * powers 
+ * Exponnetial
  * makefile
  
 
