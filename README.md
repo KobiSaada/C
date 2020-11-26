@@ -6,12 +6,12 @@ Simple library Math
 In this project I wrote a library in the C programming language that implements basic mathematical operations with a Makefile file as part of my university assignment.
 
  Generate:
- *addition
- *subtraction
- *multiplication
- *division 
- *powers 
- *makefile
+ * addition
+ * subtraction
+ * multiplication
+ * division 
+ * powers 
+ * makefile
  
 
 
@@ -20,9 +20,12 @@ In this project I wrote a library in the C programming language that implements 
 
 
 # Requirements
-iOS
-Xcode 
-Linux
+
+* iOS
+
+* Xcode 
+
+* Linux
 
 # Author:
 kobi saada
