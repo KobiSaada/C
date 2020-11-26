@@ -20,7 +20,8 @@ Features
  Scaling fonts and UI for all supported iOS13+ devices.
 SimpleMath
 # Example for some operation
-![Uploading math.gif…]()
+![math](https://user-images.githubusercontent.com/73976733/100393509-8e66ab00-3042-11eb-8f25-ee146c0845c8.gif)
+
 Todo
  Add light / dark mode support.
  Customize colors / themes (it is very purple now, my target audience demanded it!).
